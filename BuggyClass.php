@@ -8,6 +8,4 @@ class BuggyClass {
     public const \Closure TEST_CONST = static function() {
         return "This will crash";
     };
-
-    public const string TEST_CONST_STRING = "This should not crash";
 }
